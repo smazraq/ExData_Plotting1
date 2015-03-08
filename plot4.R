@@ -27,7 +27,7 @@ with(data,plot(datetime,Sub_metering_1,type="n",xlab = "",ylab = "Energy Sub Met
 with(data,lines(datetime,Sub_metering_1,col=1))
 with(data,lines(datetime,Sub_metering_2,col=2))
 with(data,lines(datetime,Sub_metering_3,col=4))
-legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c(1,2,4),lwd=2)
+legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c(1,2,4),lwd=2,bty="n")
 
 with(data,plot(datetime,Global_reactive_power,type="n"))
 with(data,lines(datetime,Global_reactive_power,col=1))
