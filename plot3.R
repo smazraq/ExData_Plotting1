@@ -19,7 +19,7 @@ png(filename = "./plot3.png",width = 480, height = 480)
 with(data,plot(datetime,Sub_metering_1,type="n",xlab = "",ylab = "Energy Sub Metering"))
 with(data,lines(datetime,Sub_metering_1,col=1))
 with(data,lines(datetime,Sub_metering_2,col=2))
-with(data,lines(datetime,Sub_metering_3,col=3))
+with(data,lines(datetime,Sub_metering_3,col=4))
 
 dev.off()
 
